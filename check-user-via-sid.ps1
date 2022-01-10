@@ -11,7 +11,7 @@ clear
 
 if (Test-Path -d -Path $folder) {
     if (Test-Path "$folder\$source" -PathType leaf) {
-        $users = Get-Content -Path "$folder\$source" #-TotalCount 20        # Testtry with first 20 lines?
+        $users = Get-Content -Path "$folder\$source" #-TotalCount 20        # Try with first 20 lines?
         foreach ($user in $users) {
             $userobj = $(try {Get-ADUser $user} catch {$Null})
             If ($userobj -ne $Null) {
