@@ -1,4 +1,5 @@
 # BestIdea5 | PowerShell Active Directory Userchecker
+[![made-with-powershell](https://img.shields.io/badge/PowerShell-1f425f?logo=Powershell)](https://microsoft.com/PowerShell)
 
 # Introduction
 This script checks the status of users in the domain via SID.
